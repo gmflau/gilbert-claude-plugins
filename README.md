@@ -1,6 +1,8 @@
 # User Guide: gilbert-plugin
 
-A Claude Code plugin that brings **Solo Enterprise for kgateway** expertise directly into your terminal. Instead of manually authoring `Gateway`, `HTTPRoute`, and `EnterpriseKgatewayTrafficPolicy` YAML from scratch, you describe what you need in plain language and the plugin generates correct, production-hardened manifests — then automatically reviews them against a 7-step checklist before you ever run `kubectl apply`. Every generation and review session queries the **live Solo.io documentation MCP server** at runtime, so the output always reflects the current API schema rather than stale training data.
+A Claude Code plugin for DevOps engineers working with **Solo Enterprise for kgateway**. Generates and reviews Gateway API routing manifests for upstream services with best practices.
+
+Instead of manually authoring `Gateway`, `HTTPRoute`, and `EnterpriseKgatewayTrafficPolicy` YAML from scratch, you describe what you need in plain language and the plugin generates correct, production-hardened manifests — then automatically reviews them against a 7-step checklist before you ever run `kubectl apply`. Every generation and review session queries the **live Solo.io documentation MCP server** at runtime, so the output always reflects the current API schema rather than stale training data.
 
 **Marketplace:** [github.com/gmflau/gilbert-claude-plugins](https://github.com/gmflau/gilbert-claude-plugins)
 
