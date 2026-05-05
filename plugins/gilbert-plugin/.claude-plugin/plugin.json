@@ -1,0 +1,8 @@
+{
+  "name": "gilbert-plugin",
+  "description": "Solo Enterprise for kgateway plugin",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gilbert Lau"
+  }
+}

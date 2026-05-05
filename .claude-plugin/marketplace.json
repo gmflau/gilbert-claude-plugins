@@ -1,0 +1,11 @@
+{
+  "name": "team-tools",
+  "owner": { "name": "Gilbert Team" },
+  "plugins": [
+    {
+      "name": "gilbert-plugin",
+      "source": "./plugins/gilbert-plugin",
+      "description": "Solo Enterprise for kgateway"
+    }
+  ]
+}
